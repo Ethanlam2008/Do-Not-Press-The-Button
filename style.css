@@ -1,0 +1,32 @@
+h1{
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	color: skyblue;
+	background-color: yellow;
+	padding: 1%;
+	border-radius: 40px;
+	box-shadow: 1em 1em 1em orangered;
+}
+
+h2{
+	position: absolute;
+	top: 20%;
+	left: 1%;
+	color: white;
+	background-color: skyblue;
+	padding: 1%;
+	border-radius: 40px;
+	box-shadow: 1em 1em 1em cadetblue;
+}
+
+#hatch{
+	position: absolute;
+	top: 40%;
+	left: 1%;
+	color: white;
+	background-color: skyblue;
+	padding: 1%;
+	border-radius: 40px;
+	box-shadow: 1em 1em 1em cadetblue;
+}

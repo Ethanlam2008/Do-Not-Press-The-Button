@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="style.css">
+
+	<title>Do Not Press the Button</title>
+
+
+<script type="text/javascript">
+	alert("Hello");
+	alert("Welcome to...");
+	alert("DON'T PRESS THE BUTTON")
+
+	function secondalert(){
+		alert("Why you press this button?");
+		document.querySelector("h1").innerHTML = "Do Not Press This Button Again! Press the button that is below me!"
+	};
+
+	function thirdalert(){
+		alert("This button is SAFE until...");
+		document.querySelector("h2").innerHTML = "This button is UNSAFE now since YOU PRESS IT!"
+	};
+
+	
+	function hatch(){
+		alert("Hatch in 3...2...1...")
+		document.querySelector("#hatch").src = "kangaroo.jpg";
+	};
+
+
+
+
+</script>
+
+
+wwwww
+
+
+
+
+</head>
+<body>
+<h1 onclick="secondalert();">Don't Press This Button!</h1>
+
+<h2 onclick="thirdalert();">This button is SAFE!</h2>
+
+<img id="hatch" onclick="hatch();" src="Aussie.jpg">
+
+
+
+</body>
+</html>
